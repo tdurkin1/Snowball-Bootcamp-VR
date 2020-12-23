@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 251412902617248779}
   - component: {fileID: 273845741257645901}
   - component: {fileID: 227827311615089698}
+  - component: {fileID: 6101200398917709327}
   m_Layer: 0
   m_Name: MovingTarget
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetSpeed: 0.5
   movementAmplitude: 0.005
+--- !u!114 &6101200398917709327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229085783508991755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cef1aa82b5a0a1448c724258c379bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

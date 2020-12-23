@@ -9,20 +9,19 @@ public class Cannon : MonoBehaviour
     [SerializeField] float senseRange = 5f;
 
     private Camera mainCamera;
+
     void Start()
     {
         mainCamera = Camera.main;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float distToTarget = Vector3.Distance(transform.position, mainCamera.transform.position);
         if(distToTarget < senseRange)
         {
             FacePlayer();
-        }
-        
+        }        
     }
 
     private void FacePlayer()

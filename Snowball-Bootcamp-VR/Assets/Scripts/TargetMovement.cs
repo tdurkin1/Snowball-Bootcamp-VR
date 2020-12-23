@@ -18,8 +18,6 @@ public class TargetMovement : MonoBehaviour
     {
         time += Time.deltaTime;
         sinePos.z = Mathf.Sin(time * targetSpeed) * movementAmplitude;
-        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + sinePos.z); ;
-
-
+        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + sinePos.z); 
     }
 }
